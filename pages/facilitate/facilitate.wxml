@@ -1,0 +1,14 @@
+<!--pages/facilitate/facilitate.wxml-->
+<!-- 顶部切换栏开始 -->
+<view class="control-box">
+  <tap_control comtrol="{{comtrol}}"/>
+</view>
+<!-- 顶部切换栏结束 -->
+
+<!-- 服务列表开始 -->
+<block wx:for="{{whole}}" wx:key="index">
+  <service_list service_content="{{item}}"/>
+</block>
+<!-- 服务列表结束 -->
+
+

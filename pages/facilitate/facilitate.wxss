@@ -1,0 +1,12 @@
+/* pages/facilitate/facilitate.wxss */
+Page{
+  background-color: #f6f6f6;
+}
+/* 顶部切换栏开始 */
+.control-box{
+  background-color: #ffffff;
+  height: 80rpx;
+  line-height: 80rpx;
+  margin-top: 20rpx;
+}
+/* 顶部切换栏结束 */

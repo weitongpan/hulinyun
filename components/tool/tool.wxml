@@ -1,10 +1,9 @@
 <!--components/tool/tool.wxml-->
 <view class="tool">
   <block wx:for="{{tool}}" wx:key="index">
-    <navigator class="tool-to" url="{{item.url}}">
+    <navigator class="tool-to" url="{{item.url}}?text={{item.text}}">
       <image class="tool-img" mode="widthFix" src="{{item.img}}"></image>
       <text class="tool-text">{{item.text}}</text>
     </navigator>
   </block>
-    
   </view>

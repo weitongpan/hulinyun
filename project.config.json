@@ -56,6 +56,12 @@
         {
           "name": "pages/service/service",
           "pathName": "pages/service/service",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/facilitate/facilitate",
+          "pathName": "pages/facilitate/facilitate",
           "scene": null
         }
       ]

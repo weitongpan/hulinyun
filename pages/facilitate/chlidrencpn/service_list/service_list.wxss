@@ -1,0 +1,57 @@
+/* pages/facilitate/chlidrencpn/service/service_list.wxss */
+.service-list-box{
+  background-color: #ffffff;
+  margin-top: 30rpx;
+  padding-top: 36rpx;
+  padding-bottom: 36rpx;
+  height: 140rpx;
+}
+.service-list-box .service-list{
+  width: 700rpx;
+  margin: 0 auto;
+}
+.service-list-box .service-list .service-img-box{
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+  float: left;
+}
+.service-list-box .service-list .service-img-box .service-img{
+  width: 140rpx;
+}
+.service-list-box .service-list .service-content{
+  float: left;
+  width: 560rpx;
+}
+.service-list-box .service-list .service-content .service-tlite{
+  font-size: 28rpx;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 530rpx;
+}
+.service-list-box .service-list .service-content .service-text{
+  font-size: 24rpx;
+  color: #8c8c8c;
+  display: block;
+  margin-bottom: 20rpx;
+  padding-left: 20rpx;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 530rpx;
+}
+.service-list-box .service-list .service-content .service-address{
+  font-size: 24rpx;
+  display: block;
+  padding-left: 20rpx;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+  width: 530rpx;
+}

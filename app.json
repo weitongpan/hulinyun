@@ -4,46 +4,47 @@
     "pages/service/service",
     "pages/business/business",
     "pages/fund/fund",
-    "pages/member/member"
+    "pages/member/member",
+    "pages/facilitate/facilitate"
   ],
   "window": {
     "navigationBarBackgroundColor": "#00b282",
     "navigationBarTitleText": "花果园Q区18栋",
     "backgroundColor": "#00b282",
     "backgroundTextStyle": "dark",
-    "enablePullDownRefresh":true
+    "enablePullDownRefresh": true
   },
   "tabBar": {
     "color": "#828282",
     "selectedColor": "#00b282",
-    "borderStyle":"white",
+    "borderStyle": "white",
     "list": [
       {
-        "pagePath":"pages/index/index",
+        "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "/assets/img/tapbar/shouye.png",
         "selectedIconPath": "/assets/img/tapbar/shouyeactive.png"
       },
       {
-        "pagePath":"pages/service/service",
+        "pagePath": "pages/service/service",
         "text": "服务",
         "iconPath": "/assets/img/tapbar/fuwu.png",
         "selectedIconPath": "/assets/img/tapbar/fuwuactive.png"
       },
       {
-        "pagePath":"pages/business/business",
+        "pagePath": "pages/business/business",
         "text": "商圈",
         "iconPath": "/assets/img/tapbar/shangquan.png",
         "selectedIconPath": "/assets/img/tapbar/shangquanactive.png"
       },
       {
-        "pagePath":"pages/fund/fund",
+        "pagePath": "pages/fund/fund",
         "text": "基金",
         "iconPath": "/assets/img/tapbar/jijin.png",
         "selectedIconPath": "/assets/img/tapbar/jijinactive.png"
       },
       {
-        "pagePath":"pages/member/member",
+        "pagePath": "pages/member/member",
         "text": "会员",
         "iconPath": "/assets/img/tapbar/huiyuan.png",
         "selectedIconPath": "/assets/img/tapbar/huiyuanactive.png"

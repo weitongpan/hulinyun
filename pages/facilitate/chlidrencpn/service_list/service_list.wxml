@@ -1,0 +1,15 @@
+<!--pages/facilitate/chlidrencpn/service/service_list.wxml-->
+<view class="service-list-box">
+  <view class="service-list">
+    <navigator url="{{service_content.url}}">
+      <view class="service-img-box">
+        <image class="service-img" src="{{service_content.img}}" mode="widthFix"></image>
+      </view>
+      <view class="service-content">
+        <text class="service-tlite">{{service_content.tlite}}</text>
+        <text class="service-text">{{service_content.text}}</text>
+        <text class="service-address">{{service_content.address}}</text>
+      </view>
+    </navigator>
+  </view>
+</view>
