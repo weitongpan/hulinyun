@@ -1,0 +1,14 @@
+<!--pages/index/chlidrencpn/notice/notice.wxml-->
+<view class="notice">
+  <view class="notice-left">
+    <image class="notice-img" mode="widthFix" src="/assets/img/index/notice/notice.jpg" />
+  </view>
+  <view class="notice-right">
+    <block wx:for="{{notice}}" wx:key="index">
+      <navigator class="notice-to">
+      <text class="spot">· </text>
+      <text class="notice-text">{{item}}</text>
+    </navigator>
+    </block>
+  </view>
+</view>

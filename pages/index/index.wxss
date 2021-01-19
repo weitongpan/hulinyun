@@ -1,0 +1,33 @@
+/* pages/index/index.wxss */
+/* 头部导航开始 */
+page{
+  background-color:#f4f4f4;
+  }
+/* 头部导航结束 */
+.nav-box{
+  background-color: #00b282;
+  height: 367rpx;
+  padding-top: 30rpx;
+}
+/* 工具栏开始 */
+.tool-box{
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  width: 700rpx;
+  margin: 0 auto;
+  margin-top: -230rpx;
+  overflow: hidden;
+}
+/* 工具栏结束 */
+
+/* 引导栏开始 */
+.guide-box{
+  background-color: #ffffff;
+  height: 146rpx;
+  margin: 0 auto;
+  width: 700rpx;
+  margin-top: 30rpx;
+  border-radius: 10rpx;
+}
+/* 引导栏结束 */
+

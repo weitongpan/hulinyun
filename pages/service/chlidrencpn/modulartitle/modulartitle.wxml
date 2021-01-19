@@ -1,0 +1,4 @@
+<!--pages/service/chlidrencpn/modulartitle/modulartitle.wxml-->
+<view class="modular-title">
+  <slot></slot>
+</view>

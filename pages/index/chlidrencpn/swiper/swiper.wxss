@@ -1,0 +1,18 @@
+/* pages/index/chlidrencpn/swiper/swiper.wxss */
+/* 轮播图开始 */
+.swiper{
+  width: 700rpx;
+  margin:0 auto;
+  height: 200rpx;
+  margin-top: 30rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.swiper .swiper-item{
+  height: 200rpx;
+  width: 700rpx;
+}
+.swiper .swiper-item .swiper-img{
+  width: 700rpx;
+}
+/* 轮播图结束 */

@@ -1,0 +1,39 @@
+<!--pages/index/index.wxml-->
+<!-- 导航开始 -->
+<view class="nav-box">
+  <nav nav="{{nav}}" />
+</view>
+<!-- 导航结束 -->
+
+<!-- 工具栏开始 -->
+<view class="tool-box">
+  <tool tool="{{tool}}"></tool>
+</view>
+<!-- 工具栏结束 -->
+
+<!-- 通知开始 -->
+<notice notice="{{notice}}"></notice>
+<!-- 通知结束 -->
+
+<!-- 轮播图开始 -->
+<swiper-cpn swiper="{{swiper}}"/>
+<!-- 轮播图结束 -->
+
+<!-- 社区基金开始 -->
+<view class="guide-box">
+  <guide guide="{{fund}}"/>
+</view>
+<!-- 社区基金结束 -->
+
+<!-- 社区团购开始 -->
+<view class="guide-box">
+  <guide guide="{{shopping}}"/>
+</view>
+<!-- 社区团购结束 -->
+
+<!-- 商品展示开始 -->
+<commodity commodity="{{commodity}}"/>
+<!-- 商品展示结束 -->
+
+
+

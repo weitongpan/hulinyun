@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "tool":"/components/tool/tool",
+    "nav":"/pages/service/chlidrencpn/nav/nav",
+    "modular-title":"/pages/service/chlidrencpn/modulartitle/modulartitle"
+  },
+  "navigationBarTitleText":"全部应用"
+}

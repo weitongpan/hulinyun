@@ -1,0 +1,24 @@
+/* components/tool/tool.wxss */
+.tool{
+  width: 700rpx;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 48rpx;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+}
+.tool .tool-to{
+  width: 175rpx;
+  text-align: center;
+  margin-bottom: 46rpx;
+}
+.tool .tool-to .tool-img{
+  width: 43rpx;
+}
+.tool .tool-to .tool-text{
+  display: block;
+  font-size: 24rpx;
+  margin-top:10rpx;
+}

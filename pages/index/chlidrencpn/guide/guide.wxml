@@ -1,0 +1,12 @@
+<!--pages/index/chlidrencpn/guide/guide.wxml-->
+<view class="guide">
+  <view class="guide-left">
+    <image class="guide-img" src="{{guide.img}}" mode="widthFix"></image>
+  </view>
+  <view class="guide-right">
+    <navigator class="guide-to">
+      <text class="guide-tlite">{{guide.tlite}}</text>
+      <text class="guide-text">{{guide.text}}</text>
+    </navigator>
+  </view>
+</view>

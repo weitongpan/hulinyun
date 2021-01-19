@@ -1,0 +1,52 @@
+<!--pages/service/service.wxml-->
+<!-- 最近使用开始 -->
+<view class="lately">
+  <modular-title>
+    <text>最近使用</text>
+  </modular-title>
+  <nav nav="{{lately}}"/>
+</view>
+<!-- 最近使用结束 -->
+
+
+<!-- 物业服务开始 -->
+<view class="modular">
+  <modular-title>
+  <text class="modular-title">物业服务</text>
+</modular-title>
+<tool tool="{{property}}"></tool>
+</view>
+<!-- 物业服务结束 -->
+
+
+
+<!-- 社区服务开始 -->
+<view class="modular">
+  <modular-title>
+  <text class="modular-title">社区服务</text>
+</modular-title>
+<tool tool="{{community}}"></tool>
+</view>
+<!-- 社区服务结束 -->
+
+
+<!-- 业委服务开始 -->
+<view class="modular">
+  <modular-title>
+  <text class="modular-title">业委服务</text>
+</modular-title>
+<tool tool="{{committee}}"></tool>
+</view>
+<!-- 业委服务结束 -->
+
+
+<!-- 社区基金开始 -->
+<view class="modular">
+  <modular-title>
+  <text class="modular-title">社区基金</text>
+</modular-title>
+<tool tool="{{fund}}"></tool>
+</view>
+<!-- 社区基金结束 -->
+
+

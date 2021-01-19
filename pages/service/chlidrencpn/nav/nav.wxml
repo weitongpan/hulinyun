@@ -1,0 +1,9 @@
+<!--pages/index/chlidrencpn/nav/nav.wxml-->
+<view class="nav">
+  <block wx:for="{{nav}}" wx:key="index">
+    <navigator class="nav-to" url="{{item.url}}">
+      <image class="nav-img" mode="widthFix" src="{{item.img}}"></image>
+      <text class="nav-text">{{item.text}}</text>
+    </navigator>
+  </block>
+</view>  

@@ -1,0 +1,7 @@
+/* pages/service/chlidrencpn/modulartitle/modulartitle.wxss */
+.modular-title{
+  width: 700rpx;
+  margin: 0 auto;
+  font-size: 24rpx;
+  padding-top: 30rpx;
+}

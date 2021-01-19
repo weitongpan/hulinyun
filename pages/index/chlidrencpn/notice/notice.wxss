@@ -1,0 +1,48 @@
+/* pages/index/chlidrencpn/notice/notice.wxss */
+.notice{
+  width: 700rpx;
+  height: 140rpx;
+  background-color: #ffffff;
+  margin: 0 auto;
+  margin-top:30rpx;
+  padding-top: 30rpx;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.notice .notice-left{
+  width: 84rpx;
+  border-radius: 50%;
+  float: left;
+  margin-left: 30rpx;
+  overflow: hidden;
+}
+.notice .notice-right{
+  float: left;
+}
+.notice .notice-left .notice-img{
+  width: 84rpx;
+}
+.notice .notice-right{
+  padding-left: 30rpx;
+}
+.notice .notice-right .notice-to{
+  position: relative;
+  top:-15rpx
+}
+.notice .notice-right .notice-to .spot{
+  font-size: 50rpx;
+  color: #828282;
+  position: relative;
+  top:-10rpx
+}
+.notice .notice-right .notice-to .notice-text{
+  display: inline-block;
+  font-size: 24rpx;
+  color: #828282;
+  height: 50rpx;
+  line-height: 50rpx;
+  width: 500rpx;
+  white-space:nowrap;
+  overflow:hidden;
+  text-overflow:ellipsis;
+}

@@ -1,0 +1,25 @@
+<!--pages/index/chlidrencpn/commodity/commodity.wxml-->
+<view  class="commodity">
+  <view class="commodity-top">
+    <text class="commodity-tlite">精选推荐</text>
+    <text class="commodity-text">史上最优惠，限时抢购!</text>
+  </view>
+  <view class="commodity-body">
+    <block wx:for="{{commodity}}" wx:key="index">
+        <navigator>
+          <view class="commodity-list">
+            <image class="commodity-img" src="{{item.img}}" mode="widthFix"></image>
+            <view>
+            <text class="commodity-text">{{item.text}}</text>
+            </view>
+            <view class="commmodity-info">
+              <text class="commmodity-symbol">￥</text>
+              <text class="commmodity-price">{{item.porice}}</text>
+              <button class="commmodity-btn"size="mini">立即下单</button>
+            </view>
+          </view>
+      </navigator>
+    </block>
+   
+  </view>
+</view>

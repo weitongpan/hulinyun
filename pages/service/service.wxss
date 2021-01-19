@@ -1,0 +1,22 @@
+/* pages/service/service.wxss */
+Page{
+  background-color: #f6f6f6;
+}
+/* 最近使用开始 */
+.lately{
+  background-color: #f6f6f6;
+  padding-bottom: 38rpx;
+}
+.lately text{
+  color: #828282;
+}
+/* 最近使用结束 */
+
+
+
+/* 功能模块开始 */
+.modular{
+  background-color: #ffffff;
+  margin-bottom: 30rpx;
+}
+/* 功能模块开始 */

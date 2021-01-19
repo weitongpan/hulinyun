@@ -1,0 +1,32 @@
+/* pages/index/chlidrencpn/guide/guide.wxss */
+.guide{
+  width: 700rpx;
+  height: 146rpx;
+}
+.guide .guide-left{
+  float: left;
+  width: 82rpx;
+  overflow: hidden;
+  margin-left: 30rpx;
+  padding-top:40rpx
+}
+.guide .guide-left .guide-img{
+  width: 82rpx;
+  border-radius: 50%;
+}
+.guide .guide-right{
+  float: left;
+  padding-left: 30rpx;
+}
+.guide .guide-right .guide-to .guide-tlite{
+  display: block;
+  font-size: 30rpx;
+  font-weight: 700;
+  margin-top: 40rpx;
+}
+.guide .guide-right .guide-to .guide-text{
+  display: block;
+  font-size: 24rpx;
+  margin-top: 10rpx;
+  color: #828282;
+}

@@ -1,0 +1,20 @@
+/* pages/index/chlidrencpn/nav/nav.wxss */
+.nav{
+  width: 700rpx;
+  margin:0 auto;
+  margin-top: 20rpx;
+  display: flex;
+}
+.nav .nav-to{
+  width: 175rpx;
+  text-align: center;
+}
+.nav .nav-to .nav-img{
+  width: 62rpx;
+}
+.nav .nav-to .nav-text{
+  display: block;
+  font-size: 24rpx;
+  color:#323232;
+  margin-top:10rpx
+}
