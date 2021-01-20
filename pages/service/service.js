@@ -1,4 +1,3 @@
-var app = getApp();
 // pages/service/service.js
 Page({
 
@@ -6,6 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    latelyShow:false,
     lately:[],
     property:[
       {
@@ -166,45 +166,24 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    getApp().globalData.latelyService = [
-      {
-        url:'/pages/facilitate/facilitate',
-        img:'/assets/img/service/nav/kaisuo.png',
-        text:'开锁'
-      },
-      {
-        url:'/pages/facilitate/facilitate',
-        img:'/assets/img/service/nav/feiyong.png',
-        text:'缴费'
-      },
-      {
-        url:'/pages/facilitate/facilitate',
-        img:'/assets/img/service/nav/baoxiu.png',
-        text:'保修'
-      },
-      {
-        url:'/pages/facilitate/facilitate',
-        img:'/assets/img/service/nav/tingche.png',
-        text:'基金'
-      },
-    ]
-    this.setData({
-      lately:getApp().globalData.latelyService
-    })
+    
   },
 
   /**
    * 生命周期函数--监听页面初次渲染完成
    */
   onReady: function () {
-
+    
   },
 
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    this.setData({
+      lately: getApp().globalData.latelyService
+    })
+    this.latelyShow();
   },
 
   /**
@@ -220,6 +199,7 @@ Page({
   onUnload: function () {
 
   },
+  
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
@@ -240,5 +220,29 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  // 将最近点击的应用添加到最近使用中
+  toolClick(item){
+    if(getApp().globalData.latelyService.length < 4){
+      getApp().globalData.latelyService.unshift(item.detail)
+    }
+    else{
+      getApp().globalData.latelyService.splice(getApp().globalData.latelyService.length-1,1)
+      getApp().globalData.latelyService.unshift(item.detail)
+    }
+  },
+  // 判断lately数组的长度，决定是否显示最近使用
+  latelyShow:function() {
+    if(this.data.lately.length == 0){
+      this.setData({
+        latelyShow:false
+      })
+    }
+    else{
+      this.setData({
+        latelyShow:true
+      })
+    }
   }
+  
 })

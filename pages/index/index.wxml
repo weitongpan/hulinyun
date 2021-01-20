@@ -1,13 +1,13 @@
 <!--pages/index/index.wxml-->
 <!-- 导航开始 -->
 <view class="nav-box">
-  <nav nav="{{nav}}" />
+  <nav nav="{{nav}}"></nav>
 </view>
 <!-- 导航结束 -->
 
 <!-- 工具栏开始 -->
 <view class="tool-box">
-  <tool tool="{{tool}}"></tool>
+  <tool tool="{{tool}}" bind:mytoolClick="toolClick"></tool>
 </view>
 <!-- 工具栏结束 -->
 

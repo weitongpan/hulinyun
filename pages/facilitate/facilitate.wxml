@@ -1,6 +1,11 @@
 <!--pages/facilitate/facilitate.wxml-->
 <!-- 顶部切换栏开始 -->
-<view class="control-box">
+<!-- 当页面滑动到一定距离时脱离文档流,固定在顶部 -->
+<view class="control-box {{comtrolfixed ? 'fixed':''}}">
+  <tap_control comtrol="{{comtrol}}"/>
+</view>
+<!-- 占位元素,当屏幕滑动到一定距离时显示,作用为占据文档流,让页面元素不会发生跳动 -->
+<view class="control-box" hidden="{{!comtrolfixed}}">
   <tap_control comtrol="{{comtrol}}"/>
 </view>
 <!-- 顶部切换栏结束 -->

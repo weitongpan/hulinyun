@@ -1,7 +1,7 @@
 <!--components/tool/tool.wxml-->
 <view class="tool">
   <block wx:for="{{tool}}" wx:key="index">
-    <navigator class="tool-to" url="{{item.url}}?text={{item.text}}">
+    <navigator class="tool-to" url="{{item.url}}?text={{item.text}}" bind:tap="toolClick" data-item="{{item}}">
       <image class="tool-img" mode="widthFix" src="{{item.img}}"></image>
       <text class="tool-text">{{item.text}}</text>
     </navigator>

@@ -1,3 +1,4 @@
+var app = getApp();
 // components/tool/tool.js
 Component({
   /**
@@ -20,6 +21,9 @@ Component({
    * 组件的方法列表
    */
   methods: {
-
+    toolClick(event){
+      let lately = event.currentTarget.dataset.item
+      this.triggerEvent('mytoolClick',lately)
+    }
   }
 })

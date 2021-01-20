@@ -1,7 +1,7 @@
 <!--pages/index/chlidrencpn/nav/nav.wxml-->
 <view class="nav">
   <block wx:for="{{nav}}" wx:key="index">
-    <navigator class="nav-to" url="{{item.url}}">
+    <navigator class="nav-to" url="{{item.url}}?text={{item.text}}">
       <image class="nav-img" mode="widthFix" src="{{item.img}}"></image>
       <text class="nav-text">{{item.text}}</text>
     </navigator>

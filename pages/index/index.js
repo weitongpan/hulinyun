@@ -7,84 +7,84 @@ Page({
   data: {
     nav:[
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/nav/kaisuo1.png',
         text:'开锁'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/nav/feiyong.png',
         text:'缴费'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/nav/baoxiu.png',
         text:'保修'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/nav/jijin.png',
         text:'基金'
       },
     ],
     tool:[
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/gonggao.png',
         text:'物业公告'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/tousu.png',
         text:'投诉建议'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/tingche.png',
         text:'停车费用'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/feiyong.png',
         text:'物业费用'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/bianminfuwu.png',
         text:'便民服务'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/shequ.png',
         text:'社区活动'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/dangqun.png',
         text:'党建群团'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/zhukun.png',
         text:'助困济弱'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/hujiao.png',
         text:'呼叫物业'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/yibiao.png',
         text:'仪表查询'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/wupin.png',
         text:'物品放行'
       },
       {
-        url:'./index.wxml',
+        url:'/pages/facilitate/facilitate',
         img:'/assets/img/index/tool/gengduo.png',
         text:'更多'
       }
@@ -214,5 +214,16 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  // 将最近点击的应用添加到最近使用中
+  toolClick(item){
+    console.log('hhh')
+    if(getApp().globalData.latelyService.length < 4){
+      getApp().globalData.latelyService.unshift(item.detail)
+    }
+    else{
+      getApp().globalData.latelyService.splice(getApp().globalData.latelyService.length-1,1)
+      getApp().globalData.latelyService.unshift(item.detail)
+    }
   }
 })
