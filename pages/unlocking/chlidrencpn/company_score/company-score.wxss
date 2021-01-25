@@ -1,0 +1,46 @@
+/* pages/unlocking/chlidrencpn/company_score/company-score.wxss */
+
+.company-score{
+  width: 700rpx;
+  margin: 0 auto;
+}
+.company-score .company-portrait-box{
+  float: left;
+  border-radius: 10rpx;
+  overflow: hidden;
+}
+.company-score .company-portrait-box .company-portrait{
+  width: 80rpx;
+}
+.company-score .company-details{
+  float: left;
+}
+.company-score .company-details .company-name{
+  font-size: 32rpx;
+  font-weight: 700;
+}
+.company-score .company-details{
+  padding-left: 30rpx;
+}
+.company-score .company-details .score-details{
+  margin-top: 8rpx;
+}
+.company-score .company-details .score-details .score-tlite{
+  font-size: 26rpx;
+  color: #828282;
+}
+.company-score .company-details .score-details .score{
+  display: inline-block;
+  margin-right: 30rpx;
+  font-size: 26rpx;
+  color: #f64848;
+}
+.company-score .company-phone-box{
+  float: right;
+  width: 80rpx;
+  border-radius: 48%;
+  overflow: hidden;
+}
+.company-score .company-phone{
+  width: 80rpx;
+}

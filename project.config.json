@@ -61,14 +61,14 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/service/service",
-          "pathName": "pages/service/service",
+          "name": "pages/unlocking/unlocking",
+          "pathName": "pages/unlocking/unlocking",
           "query": "",
           "scene": null
         },
         {
-          "name": "pages/facilitate/facilitate",
-          "pathName": "pages/facilitate/facilitate",
+          "name": "pages/login/login",
+          "pathName": "pages/login/login",
           "scene": null
         }
       ]

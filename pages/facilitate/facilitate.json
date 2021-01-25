@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "tap_control":"/pages/facilitate/chlidrencpn/tap_control/tap_control",
-    "service_list":"/pages/facilitate/chlidrencpn/service_list/service_list"
+    "service_list":"/components/service_list/service_list",
+    "tap_control":"/pages/facilitate/chlidrencpn/tap_control/tap_control"
   }
 }

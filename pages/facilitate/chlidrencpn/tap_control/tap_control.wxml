@@ -1,6 +1,6 @@
 <!--pages/facilitate/tap_control/tap_control.wxml-->
 <view class="control">
     <block wx:for="{{comtrol}}" wx:key="index">
-      <view class="control-item {{active == index ? 'control-active': ''}}" bind:tap="activeClick" data-index="{{index}}">{{item}}</view>
+      <view class="control-item {{active == index ? 'control-active': ''}}" bind:tap="activeClick" data-index="{{index}}" data-item="{{item}}">{{item}}</view>
     </block>
-  </view>
+</view>

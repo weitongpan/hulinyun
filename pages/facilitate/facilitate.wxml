@@ -2,7 +2,7 @@
 <!-- 顶部切换栏开始 -->
 <!-- 当页面滑动到一定距离时脱离文档流,固定在顶部 -->
 <view class="control-box {{comtrolfixed ? 'fixed':''}}">
-  <tap_control comtrol="{{comtrol}}"/>
+  <tap_control comtrol="{{comtrol}}" bind:Jump="Jump"/>
 </view>
 <!-- 占位元素,当屏幕滑动到一定距离时显示,作用为占据文档流,让页面元素不会发生跳动 -->
 <view class="control-box" hidden="{{!comtrolfixed}}">
@@ -11,9 +11,18 @@
 <!-- 顶部切换栏结束 -->
 
 <!-- 服务列表开始 -->
-<block wx:for="{{whole}}" wx:key="index">
-  <service_list service_content="{{item}}"/>
-</block>
+<view>
+  <block wx:for="{{facilitateList}}" wx:key="index">
+    <service_list service_content="{{item}}"/>
+  </block>
+</view>
+
 <!-- 服务列表结束 -->
+
+<!-- 到底提示开始 -->
+<view class="baseline" wx:if="{{baselineShow}}">
+  这已经是我的底线了~~~~~
+</view>
+<!-- 到底提示结束 -->
 
 

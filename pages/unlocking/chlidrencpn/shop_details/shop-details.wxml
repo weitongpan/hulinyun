@@ -1,0 +1,17 @@
+<!--pages/unlocking/chlidrencpn/shop_details/shop-details.wxml-->
+<view class="shop-details">
+    <view class="service-area">
+      <text class="service-text" space="emsp">服务区域 </text>
+      <text class="service-region">{{busines.region}}</text>
+    </view>
+    <view class="contact-information">
+      <text class="shop-name-text" space="emsp">联系商家 </text>
+      <text class="shop-name">{{busines.shopName}}</text>
+      <image class="shop-phone" src="/assets/img/unlocking/phone.png" mode="widthFix" bind:tap="phoneClick" data-phone="{{busines.phone}}"></image>
+    </view>
+    <view class="shop-dizhi">
+      <text class="dizhi-text" space="emsp">商家地址 </text>
+      <text class="dizhi-specific">{{busines.address}}</text>
+      <image class="dizhi-location" src="/assets/img/unlocking/location.png" mode="widthFix"></image>
+    </view>
+</view>

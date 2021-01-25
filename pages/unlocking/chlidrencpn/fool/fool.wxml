@@ -1,0 +1,14 @@
+<!--pages/unlocking/chlidrencpn/fool/fool.wxml-->
+<view class="fool">
+  <view class="fool-text1-box">
+    <text class="fool-text1">办理服务前请勿付</text>
+    <text class="fool-text1-red">订金、押金</text>
+    <text class="fool-text1">等费用</text>
+  </view>
+  <view class="fool-text2-box">
+    <text class="fool-text2">这是个注意事项，谨防上当受骗的！</text>
+  </view>
+  <navigator>
+    <image class="report" src="/assets/img/unlocking/tousu.png" mode="widthFix"></image>
+  </navigator>
+</view>

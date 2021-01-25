@@ -1,0 +1,22 @@
+<!--pages/unlocking/chlidrencpn/company_score/company-score.wxml-->
+<view class="company-score">
+    <view class="company-portrait-box">
+      <image class="company-portrait" src="/assets/img/unlocking/company_portrait.jpg" mode="widthFix"></image>
+    </view>
+    <view class="company-details">
+      <view class="company-name">
+        <text>贵阳XX锁业服务有限公司</text>
+      </view>
+      <view class="score-details">
+        <text class="score-tlite">人气 </text>
+        <text class="score">4.6分</text>
+        <text class="score-tlite">服务 </text>
+        <text class="score">4.6分</text>
+        <text class="score-tlite">质量 </text>
+        <text class="score">4.6分</text>
+      </view>
+    </view>
+    <view class="company-phone-box" bind:tap="phoneClick">
+      <image class="company-phone" src="/assets/img/unlocking/phone.jpg" mode="widthFix"></image>
+    </view>
+  </view>

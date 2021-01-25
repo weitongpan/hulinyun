@@ -6,4 +6,4 @@
       <text class="tool-text">{{item.text}}</text>
     </navigator>
   </block>
-  </view>
+</view>

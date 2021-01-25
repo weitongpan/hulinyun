@@ -1,0 +1,15 @@
+<!--pages/unlocking/chlidrencpn/unlocking_shop/unlocking-shop.wxml-->
+<view class="unlocking-shop">
+    <view class="shop-name-box">
+      <text class="shop-name">世纪城观山湖白云高新区金阳正规开锁换锁修锁C级金点子</text>
+    </view>
+    <view class="shop-data">
+      <view class="data-time">
+        <text class="data-time-text">更新：2019-06-06</text>
+    </view>
+    <view class="shop-service">
+        <text class="service-text">服务次数：</text>
+        <text class="service-frequency">18次</text>
+    </view>
+  </view>
+  </view>

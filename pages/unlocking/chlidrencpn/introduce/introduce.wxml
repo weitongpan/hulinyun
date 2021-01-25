@@ -1,0 +1,11 @@
+<!--pages/unlocking/chlidrencpn/introduce/introduce.wxml-->
+<view class="introduce">
+  <text class="introduce-tlite">{{introduce.tlite}}</text>
+  <text class="introduce-reporter">{{introduce.reporter}}</text>
+  <view class="introduce-text-shrink" wx:if="{{introduceShow}}">{{introduce.text}}</view>
+  <view class="introduce-text-open" wx:if="{{!introduceShow}}">{{introduce.text}}</view>
+</view>
+<button class="introduce-btn" style="width:100%;height:86rpx" bind:tap="openClick">
+  <text wx:if="{{introduceShow}}">展开全文</text>
+  <text wx:if="{{!introduceShow}}">收起全文</text>
+</button>

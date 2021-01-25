@@ -1,0 +1,12 @@
+{
+  "usingComponents": {
+    "service_list":"/components/service_list/service_list",
+    "unlocking-shop":"/pages/unlocking/chlidrencpn/unlocking_shop/unlocking-shop",
+    "shop-details":"/pages/unlocking/chlidrencpn/shop_details/shop-details",
+    "fool":"/pages/unlocking/chlidrencpn/fool/fool",
+    "introduce":"/pages/unlocking/chlidrencpn/introduce/introduce",
+    "company-score":"/pages/unlocking/chlidrencpn/company_score/company-score",
+    "evaluate":"/pages/unlocking/chlidrencpn/evaluate/evaluate",
+    "share":"/pages/unlocking/chlidrencpn/share/share"
+  }
+}

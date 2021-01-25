@@ -1,0 +1,84 @@
+/* pages/unlocking/chlidrencpn/evaluate/evaluate.wxss */
+/* 用户评价开始 */
+.user-evaluate-box{
+  background-color: #ffffff;
+  margin-top: 30rpx;
+  position: relative;
+}
+.user-evaluate-box .line{
+  width: 100%;
+  height: 1px;
+  background-color: #f1f1f1;
+  position: absolute;
+  top: 110rpx;
+}
+.user-evaluate{
+  width: 700rpx;
+  margin: 0 auto;
+}
+.user-evaluate .basic-evaluation{
+  padding-top: 40rpx;
+  padding-bottom: 40rpx;
+}
+.user-evaluate .basic-evaluation .evaluation-tlite{
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #323232;
+  display: inline-block;
+}
+.user-evaluate .basic-evaluation .evaluation-fraction{
+  font-size: 26rpx;
+  color: #f64848;
+  display: inline-block;
+  padding-left: 20rpx;
+}
+.user-evaluate .basic-evaluation .evaluation-whole{
+  font-size: 26rpx;
+  color: #828282;
+  display: block;
+  text-align: right;
+  float: right;
+  padding-right: 20rpx;
+}
+.user-evaluate .basic-evaluation .arrow{
+  font-size: 26rpx;
+  color: #dcdcdc;
+  display: block;
+  text-align: right;
+  float: right;
+}
+
+.user-evaluate .user-info{
+  margin-top: 30rpx;
+  overflow: hidden;
+}
+.user-evaluate .user-info .user-portrait-box{
+  float: left;
+}
+.user-evaluate .user-info .user-portrait-box .user-portrait{
+  width:80rpx;
+  display: inline-block;
+}
+.user-evaluate .user-info .user-name-box{
+  float: left;
+  padding-left: 30rpx;
+}
+.user-evaluate .user-info .user-name-box .uesr-name{
+  font-size: 26rpx;
+  color: #323232;
+  display: block;
+}
+.user-evaluate .user-info .user-name-box .stars{
+  width: 26rpx;
+}
+.user-evaluate .user-info .time{
+  font-size: 26rpx;
+  float: right;
+}
+.user-evaluate .user-text{
+  font-size: 26rpx;
+  color: #828282;
+  margin-top: 10rpx;
+  padding-left: 110rpx;
+}
+/* 用户评价结束 */

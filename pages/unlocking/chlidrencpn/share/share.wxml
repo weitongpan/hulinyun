@@ -1,0 +1,12 @@
+<!--pages/unlocking/chlidrencpn/share/share.wxml-->
+<view class="share">
+    <text class="price">约￥{{contact.price}}</text>
+    <button class="contact-btn" bind:tap="phoneClick">
+      <image class="contact-img" src="/assets/img/unlocking/dianhua.png" mode="widthFix"></image>
+      拨打电话
+    </button>
+  <button class="share-btn" open-type="share" style="text-align: left;">
+    <image class="share-img" src="/assets/img/unlocking/share.png" mode="widthFix"></image>
+      分享出去
+  </button>
+</view> 

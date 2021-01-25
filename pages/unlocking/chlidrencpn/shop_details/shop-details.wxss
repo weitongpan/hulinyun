@@ -1,0 +1,45 @@
+/* pages/unlocking/chlidrencpn/shop_details/shop-details.wxss */
+.shop-details{
+  width: 700rpx;
+  margin:0 auto;
+  padding-top: 28rpx;
+  padding-bottom: 28rpx;
+}
+.shop-details .service-area{
+  margin-bottom: 10rpx;
+}
+.shop-details .service-area .service-text{
+  font-size: 26rpx;
+  color:#828282;
+}
+.shop-details .service-area .service-region{
+  font-size: 26rpx;
+  color:#323232;
+}
+.shop-details .contact-information{
+  margin-bottom: 10rpx;
+}
+.shop-details .contact-information .shop-name-text{
+  font-size: 26rpx;
+  color:#828282;
+}
+.shop-details .contact-information .shop-name{
+  font-size: 26rpx;
+  color:#323232;
+}
+.shop-details .contact-information .shop-phone{
+  float: right;
+  width: 32rpx;
+}
+.shop-details .shop-dizhi .dizhi-text{
+  font-size: 26rpx;
+  color:#828282;
+}
+.shop-details .shop-dizhi .dizhi-specific{
+  font-size: 26rpx;
+  color:#323232;
+}
+.shop-details .shop-dizhi .dizhi-location{
+  width: 32rpx;
+  float: right;
+}

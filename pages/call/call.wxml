@@ -1,0 +1,5 @@
+<!--pages/call/call.wxml-->
+<block wx:for="{{phone}}" wx:key="index">
+  <call-item phone="{{item}}" bind:phoneClick="phoneClick"/>
+</block>
+

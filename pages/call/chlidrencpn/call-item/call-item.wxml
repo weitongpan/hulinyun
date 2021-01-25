@@ -1,0 +1,10 @@
+<!--pages/call/chlidrencpn/call-item/call-item.wxml-->
+<view class="call">
+  <view class="call-content">
+    <text class="call-tlite">{{phone.tlite}}</text>
+    <text class="call-number" user-select>{{phone.number}}</text>
+  </view>
+  <view class="call-btn">
+    <image class="call-img" src="/assets/img/call/call.jpg" mode="widthFix" bind:tap="phoneClick" data-number="{{phone.number}}"/>
+  </view>
+</view>

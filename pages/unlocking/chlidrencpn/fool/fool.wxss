@@ -1,0 +1,32 @@
+/* pages/unlocking/chlidrencpn/fool/fool.wxss */
+.fool{
+  width: 700rpx;
+  margin: 0 auto;
+  height: 150rpx;
+  position: relative;
+  overflow: hidden;
+}
+.fool .fool-text1-box{
+  margin-top: 20rpx;
+}
+.fool .fool-text1-box .fool-text1{
+  font-size: 26rpx;
+  color:#323232;
+}
+.fool .fool-text1-box .fool-text1-red{
+  font-size:26rpx;
+  color: #f64848;
+}
+.fool .fool-text2-box{
+  margin-top: 10rpx;
+}
+.fool .fool-text2-box .fool-text2{
+  font-size: 26rpx;
+  color:#323232;
+}
+.fool .report{
+  width: 55rpx;
+  position: absolute;
+  right: 0;
+  top: 43rpx;
+}

@@ -7,7 +7,7 @@ Page({
   data: {
     nav:[
       {
-        url:'/pages/facilitate/facilitate',
+        url:'/pages/unlocking/unlocking',
         img:'/assets/img/index/nav/kaisuo1.png',
         text:'开锁'
       },
@@ -69,7 +69,7 @@ Page({
         text:'助困济弱'
       },
       {
-        url:'/pages/facilitate/facilitate',
+        url:'/pages/call/call',
         img:'/assets/img/index/tool/hujiao.png',
         text:'呼叫物业'
       },
@@ -217,7 +217,6 @@ Page({
   },
   // 将最近点击的应用添加到最近使用中
   toolClick(item){
-    console.log('hhh')
     if(getApp().globalData.latelyService.length < 4){
       getApp().globalData.latelyService.unshift(item.detail)
     }

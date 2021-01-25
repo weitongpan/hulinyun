@@ -1,0 +1,36 @@
+/* pages/unlocking/chlidrencpn/unlocking_shop/unlocking-shop.wxss */
+
+.unlocking-shop{
+  width: 700rpx;
+  height: 160rpx;
+  margin:0 auto;
+  padding-bottom: 20rpx;
+}
+.unlocking-shop .shop-name-box{
+  padding-top: 20rpx;
+  padding-bottom: 10rpx;
+}
+.unlocking-shop .shop-name-box .shop-name{
+  font-size: 32rpx;
+  font-weight: 700;
+  display: block;
+  width: 700rpx;
+}
+.unlocking-shop .shop-data .data-time{
+  float: left;
+}
+.unlocking-shop .shop-data .data-time .data-time-text{
+  font-size: 26rpx;
+  color: #828282;
+}
+.unlocking-shop .shop-data .shop-service{
+  float: right;
+}
+.unlocking-shop .shop-data .shop-service .service-text{
+  font-size: 26rpx;
+  color: #828282;
+}
+.unlocking-shop .shop-data .shop-service .service-frequency{
+  font-size: 26rpx;
+  color: #f64848;
+}

@@ -173,15 +173,584 @@ Page({
         address:'贵阳-南明区'
       }
     ],
+    unlocking:[
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'这是开锁的数据',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      }
+    ],
+    water:[
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'这是送水的数据',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      }
+    ],
+    run:[
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'这是跑腿的数据',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },{
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'贵阳开锁正规开锁/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      }
+    ],
+    more:[
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'这是上拉加载的数据/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'这是上拉加载的数据/贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'这是上拉加载的数据/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'这是上拉加载的数据/贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'这是上拉加载的数据/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'这是上拉加载的数据/贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list1.jpg',
+        tlite:'这是上拉加载的数据/换锁/修锁，全市上锁/修锁，全市上锁/修锁，全市上',
+        text:'本公司换锁技术好，收费公道，上门速度快，价锁/修锁，全市上锁/修锁，全市上',
+        address:'贵阳-南明区'
+      },
+      {
+        url:'./facilitate.wxml',
+        img:'/assets/img/faxilitate/whole/service_whole_list2.jpg',
+        tlite:'这是上拉加载的数据/贵阳蜗牛搬家公司，搬家送货全市上门',
+        text:'本公司服务周到，收费公道，上门速度快，价格',
+        address:'贵阳-南明区'
+      }
+    ],
+    facilitateList:[],
     comtrolfixed:false,
-    distance:100
+    distance:500,
+    baselineShow:false
   },
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
     // 设置不同页面跳转时的标题
-    wx.setNavigationBarTitle({ title:options.text})
+    wx.setNavigationBarTitle({
+      title:options.text,
+      fail:(err) => {
+        console.log(err)
+      }
+    })
+    this.setData({
+      facilitateList:this.data.whole
+    })
   },
 
   /**
@@ -223,7 +792,7 @@ Page({
    * 页面上拉触底事件的处理函数
    */
   onReachBottom: function () {
-
+    this.more();
   },
 
   /**
@@ -232,6 +801,7 @@ Page({
   onShareAppMessage: function () {
 
   },
+  // 当页面滑动到一定位置时固定tap-control
   onPageScroll(event){
     // onPageScroll这个函数可以让我们获取到当前页面距离最顶部的距离,
     //我们可以通过这个方法,获取到,当页面到达某一个距离时我们将某些元素显示或者隐藏
@@ -241,7 +811,7 @@ Page({
     // 因为这个方法会涉及到底层一种算法,页面会被频繁的刷新,
 
     //那我们如何来解决这一个问题呢?
-    //首先说一下基本思路,既然官方不希望我们平凡的使用setData方法修改数据,那我们就使用判断的方法,当屏幕滑动到某一个值时,我们就将数据进行修改,这个既能实现我们的需求,又不会频繁的修改数据
+    //首先说一下基本思路,既然官方不希望我们频繁的使用setData方法修改数据,那我们就使用判断的方法,当屏幕滑动到某一个值时,我们就将数据进行修改,但是这里会有一个bug,那就是当当屏幕滑动超过某一个值时,setData会被频繁调用,在不考虑这个bug的情况下,使用判断的方法,既能实现我们的需求,又不会频繁的修改数据
     //这里说一下具体怎么实现,
       //首先,我们需要事先确定好两个值,第一个是控制元素显示或者隐藏的bool值(这里为了下面的描述更清晰,我们将这个bool值命名为show),第二个是当页面滚动到某一个距离时,这个距离的具体值(这里为了下面的描述更清晰,我们将这个值命名为distance)
       //其次再做具体判断
@@ -249,7 +819,7 @@ Page({
         //!!!!!首先,我们使用onPageScroll函数自带的event参数里的scrollTop属性(这个属性也就是页面距离最顶部的距离)与我们自己定义的具体的距离做一个比较,event.scrollTop >= distance 当event.scrollTop小于distance 返回flase,当event.scrollTop大于distance 返回true,我们使用一个常量将这个返回值保存起来
         //const distance = event.scrollTop >= this.data.distance
         //接下来我们将这个返回值与我们自定义的bool做比较,如果他们不相等,那就执行if内部的代码,(为什么是不相等呢?因为我们希望元素一开始隐藏,然后到了某个距离以后再显示,所以我们一开始将show的值设为了false,而const distance = event.scrollTop >= this.data.distance这句代码在刚开始执行的时候是返回的bool值为false,我们希望的是当event.scrollTop大于this.data.distance时我们再将元素显示,也就是当event.scrollTop >= this.data.distance代码返回值为true时我们再修改我们自定义的show的bool值,所以这是为什么设置不相等为判断条件的其中一个因素)
-        //当event.scrollTop >= this.data.distance返回值为true时我们开始执行if里面的代码块,也就是修改show的bool值,这里再说明(当屏幕滚动的距离大于我们设置的距离时我们希望能将元素显示,所以我们要将控制元素的bool值show设置为true,但是思考一下,我们能不能直接将show设置为true?这里直接告诉大家,不能!!!!!!,那为什么不能?我们思考一下,当我们直接将show设置为true时,当我们继续往下滚动屏幕时这是没有问题的,因为event.scrollTop >= this.data.distance会一直返回true,而这个返回值与我们重新设置show的bool值作不相等比较,不会执行if里面的代码块,也就是说我们继续往下滑动的时候,数据不会被我们频繁的修改,但是show的值也被改成了true这没问题,所有功能都是正常的,但是!!!!当我将屏幕往上滚动的时候,当event.scrollTop的值还是大于 this.data.distance的值的时候不会有问题,因为event.scrollTop >= this.data.distance这句代码会一直返回true,而这个返回的true与我们重新设置过的show的布尔值作不相等比较时,不会执行if里面的代码块,也就是不会修改show的bool值,这个值会一直为true,元素也就会一直显示.但是!!!!!!!当event.scrollTop小于this.data.distance时,这时event.scrollTop >= this.data.distance这句代码待会的bool为false,而我们使用false与show的布尔值作不相等比较时,这时就会执行if里面代码块也就是 if(flase != true) {this.setData({comtrolfixed:true})} 而当event.scrollTop小于this.data.distance时我们希望元素被隐藏,也就是show的值能被设置为false,但是由于我们刚才时的时候是直接在if代码块里将show的值设置为了true,所以当event.scrollTop小于this.data.distance时会执行if里面的代码块并且还会频繁的执行,show的bool值依旧为true,元素依然会显示.所以说不能直接在if代码块里将show的值设置成固定的true或者是固定的flase,而是更具屏幕滚动位置的不同,而设置成对应的bool值)
+        //当event.scrollTop >= this.data.distance返回值为true时我们开始执行if里面的代码块,也就是修改show的bool值,这里再说明(当屏幕滚动的距离大于我们设置的距离时我们希望能将元素显示,所以我们要将控制元素的bool值show设置为true,但是思考一下,我们能不能直接将show的值直接设置为true?这里直接告诉大家,不能!!!!!!,那为什么不能?我们思考一下,当我们直接将show的值直接设置为true时,当我们继续往下滚动屏幕时这是没有问题的,因为event.scrollTop >= this.data.distance会一直返回true,而这个返回值与我们重新设置show的bool值作不相等比较,不会执行if里面的代码块,也就是说我们继续往下滑动的时候,数据不会被我们频繁的修改,但是show的值也被改成了true这没问题,所有功能都是正常的,但是!!!!当我将屏幕往上滚动的时候,当event.scrollTop的值还是大于 this.data.distance的值的时候不会有问题,因为event.scrollTop >= this.data.distance这句代码会一直返回true,而这个返回的true与我们重新设置过的show的布尔值作不相等比较时,不会执行if里面的代码块,也就是不会修改show的bool值,这个值会一直为true,元素也就会一直显示.但是!!!!!!!当event.scrollTop小于this.data.distance时,这时event.scrollTop >= this.data.distance这句代码待会的bool为false,而我们使用false与show的布尔值作不相等比较时,这时就会执行if里面代码块也就是 if(flase != true) {this.setData({comtrolfixed:true})} 而当event.scrollTop小于this.data.distance时我们希望元素被隐藏,也就是show的值能被设置为false,但是由于我们刚才时的时候是直接在if代码块里将show的值设置为了true,所以当event.scrollTop小于this.data.distance时会执行if里面的代码块并且还会频繁的执行,show的bool值依旧为true,元素依然会显示.所以说不能直接在if代码块里将show的值设置成固定的true或者是固定的flase,而是更具屏幕滚动位置的不同,而设置成对应的bool值)
         //那我们如何实现这种动态的设置呢?并且数据还不会被频繁的修改呢?根据我的总结,我觉得一下我描述的这种方式应该是属于敲代码的一种经验累积(这里是废话),那我们如何实现这种动态设计,并且数据不会被频繁的刷新呢?
         //首先我们思考一下,当屏幕滚动超过一定距离时,我们希望show的值为true,当屏幕滚动小于一定距离时我们希望show的值为flase,并且当屏幕超过一定距离时只执行一次修改数据,当屏幕又回滚到小于某个距离时也只执行一次数据的修改.这里我们可以通过观察和思考,可以得到,当屏幕滚动超过一定距离时,event.scrollTop >= this.data.distance这句代码的返回值为true,当屏幕距离在我们规定的距离范围之内时,event.scrollTop >= this.data.distance这句代码的返回值为flase.这两个返回值刚刚好也就是我们希望能动态修改的show的bool值(也就是,当屏幕滚动超过一定距离,event.scrollTop >= this.data.distance返回true并且我们希望元素显示,也就是show的bool值被修改成true,当屏幕回滚到规格范围之内,event.scrollTop >= this.data.distance返回flase并且我们希望元素隐藏,也就是show的bool值被修改成flase,),所以我们不妨大胆的尝试一下,在if代码块里,我们将show的bool值修改为event.scrollTop >= this.data.distance的返回值,(也就是当屏幕超过一定距离,event.scrollTop >= this.data.distance返回值为true,我们将show的bool值改为true,这样元素就能显示,当屏幕回滚到规定距离之类,event.scrollTop >= this.data.distance返回值为flase,我们将show的bool值改为flase,这样元素就能隐藏.)
         //说明了这么多,看试一切都没问题了对吧?那我们就再来验证一遍,
@@ -259,16 +829,16 @@ Page({
             // setData({
             //   show:distance
             // })
-            //至于为什么我们将show的值设置为distance(其实这就是一种动态设置bool值)我在上面也详细分析过,并且我们在这里就是为了验证show的值设置为distance这行代码.
+            //至于为什么我们将show的值设置为distance(其实这就是一种动态设置bool值)我在上面也详细分析过,这样能使show的bool值实现动态修改,但我们暂时还不知道这样修改后,数据是被频繁修改还是能实现不被频繁修改,这里我们只是一种大胆的尝试.
             //好!!!!所有东西我们准备完全,下面开始梳理逻辑,
-            //1~首先我们希望元素是隐藏的,超过一定距离才显示,所以我们将show设置为flase,这个距离我们假设为200rpx,所以我们将distance设置为200
+            //1~首先我们希望元素是隐藏的,超过一定距离才显示,所以我们将show的初始值设置为flase,这个距离我们假设为200rpx,所以我们将distance设置为200
             //2~当屏幕刚开始滚动并且没有超过规定范围时 const distance = event.scrollTop >= this.data.distance 这句代码的返回值为flase, 又show为flase,将distance与show作不相等判断也就是if(distance != this.data.show)这是不会执行if里面的代码块,也就是数据不会被修改,元素依旧隐藏.
-            //3~当屏幕滚动到规定范围或超过规定范围时,const distance = event.scrollTop >= this.data.distance 这句代码的返回值为true,又show为flase,将distance与show作不相等判断也就是if(distance != this.data.show)这时会执行if里面的代码块,也就是数据会被修改,并且修改为distance,也就是show被修改成true,元素就会被显示出来.
+            //3~当屏幕滚动到规定范围边界或超过规定范围时,const distance = event.scrollTop >= this.data.distance 这句代码的返回值为true,又show为flase,将distance与show作不相等判断也就是if(distance != this.data.show)这时会执行if里面的代码块,也就是数据会被修改,并且修改为distance,也就是show被修改成true,元素就会被显示出来.
             //~当我们继续往下滚动时const distance = event.scrollTop >= this.data.distance 这句代码的返回值依旧为true,而show的值被修改为了true,这时再将distance与show作不相等判断也就是if(distance != this.data.show)就不会执行if里面的代码块,这时show不会被修改依旧为true,元素被显示,并且没有频繁的使用setData()方法.
             //4~当我们开始往回滚动时,当屏幕距离最顶部的距离依然在规定范围之外时, const distance = event.scrollTop >= this.data.distance 返回值为true,这时show的值为true,再将distance与show作不相等判断也就是if(distance != this.data.show),同样也不会执行if里面的代码块,这时show不会被修改依旧为true,元素被显示,并且没有频繁的使用setData()方法.
             //5~当我们开始回滚到规定屏幕距离之内时,const distance = event.scrollTop >= this.data.distance 返回值变成了flase ,这时这时show的值为true,再将distance与show作不相等判断也就是if(distance != this.data.show),这时会执行if里面的代码块,也就是数据会被修改,并且修改为distance,也就是show被修改成flase,元素就会被隐藏起来.
             //6~当我们继续往上滑动时,const distance = event.scrollTop >= this.data.distance 返回值变成了flase,这时show被修改成flase,再将distance与show作不相等判断也就是if(distance != this.data.show),这时不会执行if里面的代码块,show不会被修改依旧为flase,元素依旧隐藏,并且没有频繁的使用setData()方法.
-             //最后做一下总结与感慨,当我们在最上面开始实现动态修改show为true还是flase时,并且在下面作验证后,发现!!!不但能根据屏幕距离的不同能实现动态修改show的值,并且还决定了频繁使用setData()这个不良代码.我在这里对这种逻辑思维抱有一丝疑惑,到底时那些大神在设计这个逻辑时也时按照我这种思维去验证后发现一举两得还是大神们在设计的时候就已经预料到这样的方式不仅能动态修改show还是避免频繁的使用setData这种方法.感叹!感叹!感叹!感叹!66666
+             //最后做一下总结与感慨,当我们在最上面开始大胆尝试实现动态修改show为true还是flase时,并且在下面作验证后,发现!!!不但能根据屏幕距离的不同能实现动态修改show的值,并且还解决了频繁使用setData()这个不良代码.我在这里对这种逻辑思维抱有一丝疑惑,到底是哪一位大神设计的这个逻辑,在设计这个逻辑时也时按照我这种思维去验证后发现一举两得还是大神们在设计的时候就已经预料到这样的方式不仅能动态修改show还能避免频繁的使用setData这种方法.感叹!感叹!感叹!感叹!66666
 
 
     const distance = event.scrollTop >= this.data.distance
@@ -276,8 +846,59 @@ Page({
       this.setData({
         comtrolfixed:distance
       })
-      console.log(event.scrollTop)
-      console.log(this.data.comtrolfixed)
+    }
+  },
+  //上拉加载更多
+  more(){
+    // 写一下我在这个位置踩的坑
+    //首先我说明我一开始的思路，我定义了page里定义了两个数组，whole和more分别装的数据是刚开始需要显示的数据，和后来要添加的数据。刚开始我是这样想的，当屏幕滚动到顶部，然后我利用 for of将more里面的数据一个一个拿出来，然后再通过push的方式将一个个数据添加到whole中，最后再通过setData的方式将我们已经push好的数据动态显示出来。
+    //第一个坑我发现，当我们希望通过  this.data.whole.push(val)这样的方式将一个个元素push到this.data.whole中是会报一个很奇怪的错，this.data.whole.push未定义，通过查询资料了解到，我们直接使用this.data.whole这样的方式获取到的是一个类似于对象类型的数组，虽然打印出来是数组，但是实际他是一个对象（其实这里可以这样理解，但是我不知道我的理解是否正确，我们通过this.data.whole这样的方式获取到数据的时候，底层是这样一个原理，那就是通过this对象，然后 . 出里面的data属性 然后再 . 出里面的whole属性。到这里，这个whole是一个数组，但是当我们继续往下 .push 的时候底层会自动解析，在this.data.whole下面找oush属性，系统找不到，然后就会报未定义这样一个错），所以我们直接.push的时候，他就会报这个东西为定义这样的错。这里我们需要怎么解决呢？我们使用一个变量将我们取出的this.data.whole装起来，也就是let whole = this.data.whole,这样我们定义的这个whole变量就是一个数组了，然后我们就可以快乐的使用.push方法了。
+    //第二个坑，这个坑不会影响功能的实现，但是会使程序变得很捞，上面我们说到，当我们可以使用.push这个方法以后，我就能将数据一个一个添加到我们定义的变量中，然后我们再将这个变量通过setData方法绑定到我们定义的whole中，这样就可以实现页面显示数据。但是后来我发现我的逻辑出现了错误，那就是我们通过for(let val of this.data.whole){}这样的循环实现了上述需求的时候，实际上我们每循环一次，就要去获取一次 this.data.whole 并且将这个值赋值给 我们定义好的whole ,然后我们通过.push方法将每次循环拿到的val值添加到我们定义的whole中，然后再通过setData方法将每一次.push后的变量实现双向数据绑定。第一个需要注意的点！！！！！！这样做可以实现需求，但是我们频繁的使用setData这是我们不希望出现的。那第一次我是这样思考的，既然我们不希望平反的使用setData那我们就将setData这个方法写到循环的外面，这样我们就能可以等每一次循环拿到的val值全都push到我们定义的变量后，我们再通过setData这个方法将我们定义好的变量绑定到whole上，这样又能实现双向绑定，又能实现避免频繁的使用setData方法。第二个坑！！！！！当我实现了上述的方式以后，我觉得完全没有问题，并且都已经开始在写这段笔记的时候我发现，当我们把setData写道循环外后，虽然避免了频繁的使用setData，但是我发现，我们每次循环都行执行 whole = this.data.whole；whole.push(val)；这两句代码，也就是每次循环我们都需要去拿到this.data.whole并且赋值给我们定义的变量，再将这个变量进行push操作，但是这样会存在一个问题，那就是我们每次拿到的this.data.whole都是同一个数组，数据是一样的。然后我们通过.push方法添加数据后。我们再一次循环，又去拿同样的数据，又push最后整个循环结束后，我们定义的whole变量得到的值只不过是第一次拿到的this.data.more值再添加上最后一个我们拿到val值，最后我们再将这个值通过this.setData方法实现数据绑定后，实际上只添加了一条数据，而我们在上拉触底是会一直触发这个函数，感觉上是一直有数据，但是实际上，我们每次添加的数据都是我们实际想添加数据的最后一个val.所以我们这里需要将whole = this.data.whole定义到循环的前面，这样就能保证，我们在每一次循环后都能将每一次拿到的val添加到我们定义好的变量中，等循环结束后，我们再通过this.setData方式进行一个数据绑定，这样就真正意义上实现了我们的所有需求
+
+    // 通过昨天的动态改变show的bool以及今天这个循环我总结出以下几点，第一，我们在写代码之初就一定要避免频繁的使用this.setData方法，
+    // 其次，只要是关于通过if判断去动态修改某个值时不能将这个值直接写死，而是要去寻找某个规律，当要通过for循环去遍历数据并且添加到原始数据上时，我们不能在循环里面拿原始数据，我们应该在循环开始前就拿到数据
+    let facilitateList = this.data.facilitateList
+    if(facilitateList.length < 60){
+      for(let val of this.data.more){
+        facilitateList.push(val)
+      }
+      this.setData({
+        facilitateList
+      })
+    }
+    else{
+      this.setData({
+        baselineShow:true
+      })
+    }
+  },
+  Jump(item){
+    console.log(item.detail)
+    if(item.detail == '全部'){
+      let kong = []
+      this.setData({
+        baselineShow:false,
+        facilitateList:this.data.whole
+      })
+    }
+    else if(item.detail == '开锁换锁'){
+      this.setData({
+        baselineShow:false,
+        facilitateList:this.data.unlocking
+      })
+    }
+    else if(item.detail == '送水服务'){
+      this.setData({
+        baselineShow:false,
+        facilitateList:this.data.water
+      })
+    }
+    else{
+      this.setData({
+        baselineShow:false,
+        facilitateList:[],
+        facilitateList:this.data.run
+      })
     }
   }
 })

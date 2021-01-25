@@ -14,4 +14,8 @@ Page{
   top:0;
   margin-top: 0;
 }
+.baseline{
+  text-align: center;
+  font-size: 24rpx;
+}
 /* 顶部切换栏结束 */

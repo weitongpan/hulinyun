@@ -1,0 +1,40 @@
+/* pages/unlocking/chlidrencpn/share/share.wxss */
+.share{
+  width: 700rpx;
+  margin: 0 auto;
+  padding-top: 40rpx;
+  padding-bottom: 50rpx;
+}
+.share .price{
+  font-weight: 700;
+  color:#f64848;
+  position: relative;
+  top: 10rpx;
+}
+.share .share-btn{
+  background-color: #00b282;
+  color: #ffffff;
+  font-weight: 400;
+  width: 220rpx;
+  height: 66rpx;
+  padding: 10rpx 0 0 20rpx;
+  border-radius: 40rpx;
+  float: right;
+  margin-right: 30rpx;
+}
+.share .share-btn .share-img{
+  width: 28rpx;
+}
+.share .contact-btn{
+  background-color: #f64848;
+  color: #ffffff;
+  font-weight: 400;
+  width: 220rpx;
+  height: 66rpx;
+  padding: 10rpx 10rpx 0 0rpx;
+  border-radius: 40rpx;
+  float: right;
+}
+.share .contact-btn .contact-img{
+  width: 28rpx;
+}

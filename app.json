@@ -5,7 +5,10 @@
     "pages/business/business",
     "pages/fund/fund",
     "pages/member/member",
-    "pages/facilitate/facilitate"
+    "pages/facilitate/facilitate",
+    "pages/call/call",
+    "pages/unlocking/unlocking",
+    "pages/login/login"
   ],
   "window": {
     "navigationBarBackgroundColor": "#00b282",

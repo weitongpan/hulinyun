@@ -1,0 +1,65 @@
+<!--pages/unlocking/unlocking.wxml-->
+<!-- 开锁店面开始 -->
+<view class="unlocking-shop-box">
+  <unlocking-shop></unlocking-shop>
+</view>
+<!-- 开锁店铺结束 -->
+
+<!-- 店铺详细信息开始 -->
+<view class="shop-details-box">
+  <shop-details busines="{{business}}" bind:phoneClick="phoneClick"></shop-details>
+</view>
+<!-- 店铺详细信息结束 -->
+
+<!-- 防止受骗开始 -->
+<view class="fool-box">
+  <fool />
+</view>
+<!-- 防止受骗结束 -->
+
+<!-- 服务介绍开始 -->
+<view class="introduce-box">
+  <introduce introduce="{{serviceIntroduce}}"></introduce>
+</view>
+<!-- 服务介绍结束 -->
+
+<!-- 商家介绍开始 -->
+<view class="introduce-box">
+  <introduce introduce="{{businessIntroduce}}"></introduce>
+</view>
+<!-- 商家介绍结束 -->
+
+<!-- 公司评分开始 -->
+<view class="company-score-box">
+  <company-score phone="{{business.phone}}"/>
+</view>
+<!-- 公司评分结束 -->
+
+<!-- 用户评价开始 -->
+<evaluate evaluate="{{evaluate}}"></evaluate>
+<!-- 用户评价结束 -->
+
+<!-- 猜你喜欢开始 -->
+<view class="like-box">
+  <view class="like">
+    <text class="like-line"></text>
+    <text class="like-tlite">猜你喜欢</text>
+  </view>
+</view>
+<scroll-view scroll-y class="like-scroll">
+  <view>
+    <block wx:for="{{like}}" wx:key="index">
+      <service_list service_content="{{item}}"></service_list>
+    </block>
+  </view>
+</scroll-view>
+<!-- 猜你喜欢结束 -->
+
+<!-- 分享和联系开始 -->
+<view class="share-box">
+  <share contact="{{contact}}"></share>
+</view>
+
+<!-- 分享和联系结束 -->
+
+

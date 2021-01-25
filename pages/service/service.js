@@ -9,7 +9,7 @@ Page({
     lately:[],
     property:[
       {
-        url:'/pages/facilitate/facilitate',
+        url:'/pages/unlocking/unlocking',
         img:'/assets/img/service/property/kaisuo.png',
         text:'开门'
       },
@@ -49,7 +49,7 @@ Page({
         text:'验房收房'
       },
       {
-        url:'/pages/facilitate/facilitate',
+        url:'/pages/call/call',
         img:'/assets/img/service/property/hujiao.png',
         text:'呼叫物业'
       },
@@ -227,8 +227,8 @@ Page({
       getApp().globalData.latelyService.unshift(item.detail)
     }
     else{
-      getApp().globalData.latelyService.splice(getApp().globalData.latelyService.length-1,1)
-      getApp().globalData.latelyService.unshift(item.detail)
+        getApp().globalData.latelyService.splice(getApp().globalData.latelyService.length-1,1)
+        getApp().globalData.latelyService.unshift(item.detail)
     }
   },
   // 判断lately数组的长度，决定是否显示最近使用

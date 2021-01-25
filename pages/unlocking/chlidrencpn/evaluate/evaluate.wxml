@@ -1,0 +1,29 @@
+<!--pages/unlocking/chlidrencpn/evaluate/evaluate.wxml-->
+<view class="user-evaluate-box">
+  <view class="line"></view>
+  <view class="user-evaluate">
+    <view class="basic-evaluation">
+      <text class="evaluation-tlite">用户点评</text>
+      <text class="evaluation-fraction">{{evaluate.fraction}}分</text>
+      <text class="arrow">></text>
+      <text class="evaluation-whole">查看全部{{evaluate.whole}}条评论</text>
+    </view>
+    <view class="user-info">
+      <view class="user-portrait-box">
+        <image class="user-portrait" src="{{evaluate.img}}" mode="widthFix"></image>
+      </view>
+      <view class="user-name-box">
+        <text class="uesr-name">{{evaluate.userName}}</text>
+        <block wx:for="{{evaluate.stars}}" wx:key="index">
+          <image class="stars" src="/assets/img/unlocking/stars.png" mode="widthFix"></image>
+        </block>
+      </view>
+      <view class="time">
+        <text>{{evaluate.time}}</text>
+      </view>
+    </view>
+    <view class="user-text">
+      <text>{{evaluate.text}}</text>
+    </view>
+  </view>
+</view>

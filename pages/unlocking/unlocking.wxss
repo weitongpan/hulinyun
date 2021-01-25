@@ -1,0 +1,80 @@
+/* pages/unlocking/unlocking.wxss */
+page{
+  background-color: #f6f6f6;
+}
+/* 开锁店铺开始 */
+.unlocking-shop-box{
+  background-color: #ffffff;
+}
+/* 开锁店铺结束 */
+
+
+/* 店铺详情开始 */
+.shop-details-box{
+  background-color: #ffffff;
+  margin-top: 30rpx;
+}
+/* 店铺详情结束 */
+
+/* 防止受骗开始 */
+.fool-box{
+  background-color: #ffffff;
+  margin-top:30rpx;
+}
+/* 防止受骗结束 */
+
+/* 介绍开始 */
+.introduce-box{
+  background-color: #ffffff;
+  margin-top: 30rpx;
+}
+/* 介绍结束 */
+
+/* 公司评分开始 */
+.company-score-box{
+  background-color: #ffffff;
+  margin-top: 30rpx;
+  padding-top: 35rpx;
+  padding-bottom: 30rpx;
+  overflow: hidden;
+}
+/* 公司评分结束 */
+
+/* 猜你喜欢开始 */
+.like-box{
+  background-color: #ffffff;
+  margin-top: 30rpx;
+}
+.like-box .like{
+  width: 700rpx;
+  margin: 0 auto;
+  height: 90rpx;
+  position: relative;
+  line-height: 90rpx;
+}
+.like-box .like .like-line{
+  width: 6rpx;
+  height: 30rpx;
+  background: #00b282;
+  position: absolute;
+  top: 32rpx;
+
+}
+.like-box .like .like-tlite{
+  display: inline-block;
+  font-size: 30rpx;
+  font-weight: 700;
+  color: #323232;
+  padding-left: 20rpx;
+}
+.like-scroll{
+  height: 750rpx;
+}
+/* 猜你喜欢结束 */
+
+/* 喜欢和分享开始 */
+.share-box{
+  background-color: #ffffff;
+  margin-top: 20rpx;
+}
+/* 喜欢和分享结束 */

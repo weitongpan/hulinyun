@@ -1,0 +1,37 @@
+/* pages/call/chlidrencpn/call-item/call-item.wxss */
+.call{
+  height: 152rpx;
+  width: 700rpx;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+  margin-top: 30rpx;
+}
+.call .call-content{
+  float: left;
+  padding-left: 27rpx;
+}
+.call .call-content .call-tlite{
+  display: block;
+  font-size: 28rpx;
+  margin-top:30rpx;
+  color: #323232;
+  font-weight: 700;
+}
+.call .call-content .call-number{
+  display: block;
+  font-size: 28rpx;
+  margin-top:30rpx;
+  color: #828282;
+}
+.call .call-btn{
+  float: right;
+  width: 88rpx;
+  height: 88rpx;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 30rpx;
+}
+.call .call-btn .call-img{
+  width: 88rpx;
+}

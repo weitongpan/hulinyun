@@ -25,6 +25,7 @@ Component({
       this.setData({
         active:event.currentTarget.dataset.index
       })
+      this.triggerEvent('Jump',event.currentTarget.dataset.item)
     }
   }
 })
