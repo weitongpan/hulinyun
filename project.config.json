@@ -61,14 +61,9 @@
     "miniprogram": {
       "list": [
         {
-          "name": "pages/unlocking/unlocking",
-          "pathName": "pages/unlocking/unlocking",
+          "name": "pages/addroom/addroom",
+          "pathName": "pages/addroom/addroom",
           "query": "",
-          "scene": null
-        },
-        {
-          "name": "pages/login/login",
-          "pathName": "pages/login/login",
           "scene": null
         }
       ]

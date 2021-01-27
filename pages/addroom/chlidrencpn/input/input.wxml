@@ -1,0 +1,23 @@
+<!--pages/addroom/chlidrencpn/input/input.wxml-->
+<view class="add-box">
+  <view class="input-box">
+    <text class="input-title">姓名</text>
+    <input class="frame" type="text" placeholder="请输入姓名" />
+  </view>
+  <view class="input-box">
+    <text class="input-title">联系电话</text>
+    <input class="frame" type="text" placeholder="请输入联系电话" />
+  </view>
+  <view class="input-box">
+    <text class="input-title">所在房间</text>
+    <input class="frame" type="text" placeholder="请选择房间 >" />
+  </view>
+  <view class="input-box">
+    <text class="input-title">身份证类型</text>
+    <input class="frame" type="text" placeholder="请选择类型 >" />
+  </view>
+  <view class="input-box">
+    <text class="input-title">身份证号码</text>
+    <input class="frame" type="text" placeholder="请输入份证号码" />
+  </view>
+</view>

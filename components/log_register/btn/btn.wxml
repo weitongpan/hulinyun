@@ -1,0 +1,6 @@
+<!--components/log_register/btn/btn.wxml-->
+<button class="btn" style="width:664rpx;height:90rpx" bind:tap="btnClick">
+  <slot>
+    <text>登录</text>
+  </slot>
+</button>

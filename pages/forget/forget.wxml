@@ -1,0 +1,18 @@
+<!--pages/forget/forget.wxml-->
+<title>
+  <text>找回密码</text>
+</title>
+<user-name/>
+<verification/>
+<password placeholderPassword="{{placeholderPassword}}"/>
+<tips/>
+<btn>
+  <text>提交</text>
+</btn>
+<account-operation>
+  <text slot="accountNo">想起来了？</text>
+  <navigator url="/pages/login/login" slot="redirect">
+    <text>立即登录</text>
+  </navigator>
+</account-operation>
+<tripartite/>

@@ -5,7 +5,28 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    nav:[
+      {
+        url:'/pages/unlocking/unlocking',
+        img:'/assets/img/index/nav/kaisuo1.png',
+        text:'开锁'
+      },
+      {
+        url:'/pages/facilitate/facilitate',
+        img:'/assets/img/index/nav/feiyong.png',
+        text:'缴费'
+      },
+      {
+        url:'/pages/facilitate/facilitate',
+        img:'/assets/img/index/nav/baoxiu.png',
+        text:'保修'
+      },
+      {
+        url:'/pages/facilitate/facilitate',
+        img:'/assets/img/index/nav/jijin.png',
+        text:'基金'
+      },
+    ],
   },
 
   /**

@@ -1,0 +1,11 @@
+<!--pages/addroom/chlidrencpn/upload/upload.wxml-->
+<view class="upload">
+    <text class="upload-title">上次身份证</text>
+    <text class="upload-tips">上传手持身份证照片正面照</text>
+    <view class="upload-btn-box" bind:tap="uploadClick">
+      <image class="upload-btn" src="/assets/img/addroom/upload_03.jpg" mode="widthFix"/>
+    </view>
+  </view>
+<view class="upload-img-box">
+  <image src="{{path}}" mode="widthFix" wx:if="{{imgShow}}"></image>
+</view>

@@ -62,5 +62,28 @@ Page({
    */
   onShareAppMessage: function () {
 
+  },
+  btnClick(){
+    const nameInput = this.selectComponent('#userNameInput')
+    const passWordInput = this.selectComponent('#passWordInput')
+    const userName = nameInput.data.userName
+    const password = passWordInput.data.password
+    if(userName == getApp().globalData.userInfo.userName && password == getApp().globalData.userInfo.passWord){
+      wx.showToast({
+        title: '登录成功'
+      })
+      wx.switchTab({
+        url: '/pages/index/index',
+      })
+    }
+    else{
+      wx.showToast({
+        title: '用户名或密码错误!',
+        icon:'none',
+        mask:true
+      })
+      console.log('用户名或密码错误')
+    }
+
   }
 })

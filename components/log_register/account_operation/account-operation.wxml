@@ -1,0 +1,22 @@
+<!--components/log_register/account_operation/account-operation.wxml-->
+<view class="account-operation">
+  <view class="account">
+    <slot name="accountNo"></slot>
+  </view>
+
+  <view class="redirect">
+    <slot name="redirect">
+      <navigator>
+        <text>立即注册</text>
+      </navigator>
+    </slot>
+  </view>
+
+  <view class="forget">
+    <slot name="forget">
+      <navigator>
+        <text>忘记密码</text>
+      </navigator>
+    </slot>
+  </view>
+</view>

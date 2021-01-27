@@ -1,0 +1,7 @@
+/* components/log_register/title/title.wxss */
+.login-title{
+  width: 664rpx;
+  margin: 0 auto;
+  margin-top: 200rpx;
+  font-size: 40rpx;
+}

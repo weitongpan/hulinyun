@@ -1,3 +1,8 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "member-back":"/pages/member/chlidrencpn/member_back/member-back",
+    "user-info":"/pages/member/chlidrencpn/user_info/user-info",
+    "nav":"/pages/member/chlidrencpn/nav/nav",
+    "my-list":"/pages/member/chlidrencpn/my_list/my-list"
+  }
 }

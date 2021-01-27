@@ -1,0 +1,21 @@
+/* components/log_register/account_operation/account-operation.wxss */
+.account-operation{
+  width: 664rpx;
+  margin: 0 auto;
+  margin-top: 18rpx;
+}
+.account-operation .account{
+  font-size: 28rpx;
+  color: #323232;
+  float: left;
+}
+.account-operation .redirect{
+  font-size: 28rpx;
+  color: #00b282;
+  float: left;
+}
+.account-operation .forget{
+  font-size: 28rpx;
+  color: #00b282;
+  float: right;
+}

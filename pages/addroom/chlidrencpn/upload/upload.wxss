@@ -1,0 +1,33 @@
+/* pages/addroom/chlidrencpn/upload/upload.wxss */
+.upload{
+  width: 700rpx;
+  margin: 0 auto;
+}
+.upload-title{
+  font-size: 30rpx;
+  display: block;
+}
+.upload-tips{
+  font-size: 30rpx;
+  color: #828282;
+  display: block;
+  margin-top: 20rpx;
+}
+.upload-btn-box{
+  width: 155rpx;
+  height: 155rpx;
+  border:1rpx dashed #e6e6e6;
+  text-align: center;
+  overflow: hidden;
+  padding-top: 40rpx;
+  box-sizing: border-box;
+  margin-top: 20rpx;
+}
+.upload-btn{
+  width: 64rpx;
+}
+.upload-img-box{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20rpx 0;
+}

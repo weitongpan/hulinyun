@@ -1,0 +1,37 @@
+<!--pages/member/chlidrencpn/my_list/my-list.wxml-->
+<view class="my-list-box">
+  <navigator url="/pages/room/room">
+    <view class="list-item">
+      <text class="list-title">我的房间</text>
+      <text class="list-arrow">></text>
+    </view>
+  </navigator>
+  <view class="line"></view>
+  <navigator>
+    <view class="list-item">
+      <text class="list-title">我都活动</text>
+      <text class="list-arrow">></text>
+    </view>
+  </navigator>
+  <view class="line"></view>
+  <navigator>
+    <view class="list-item">
+      <text class="list-title">我都钥匙</text>
+      <text class="list-arrow">></text>
+    </view>
+  </navigator>
+  <view class="line"></view>
+  <navigator>
+    <view class="list-item">
+      <text class="list-title">我的收获地址</text>
+      <text class="list-arrow">></text>
+    </view>
+  </navigator>
+  <view class="line"></view>
+  <navigator>
+    <view class="list-item">
+      <text class="list-title">系统设置</text>
+      <text class="list-arrow">></text>
+    </view>
+  </navigator>
+</view>

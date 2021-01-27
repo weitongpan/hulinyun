@@ -1,0 +1,4 @@
+<!--pages/member/chlidrencpn/mamber-back.wxml-->
+<view class="member-back">
+	<image class="back-img" src="/assets/img/member/memberback_01.jpg" mode="widthFix"/>
+</view>

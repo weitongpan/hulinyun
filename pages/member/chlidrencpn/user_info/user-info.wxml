@@ -1,0 +1,23 @@
+<!--pages/member/chlidrencpn/user_info/user-info.wxml-->
+<view class="user-info">
+	<view class="portrait-box">
+		<image class="portrait-img" src="/assets/img/member/huge.jpg" mode="heightFix" />
+	</view>
+	<view class="user-name-box">
+		<text class="user-name">我是谁</text>
+		<image class="modify" src="/assets/img/member/bianji.png" mode="widthFix"/>
+	</view>
+	<view class="transverse"></view>
+	<view class="account-box">
+		<view class="account vertical">
+			<text class="account-title">预收款余额</text>
+			<text class="account-balance">2766.90</text>
+			<text class="symbol">元</text>
+		</view>
+		<view class="account">
+			<text class="account-title">预收款余额</text>
+			<text class="account-balance">2766.90</text>
+			<text class="symbol">元</text>
+		</view>
+	</view>
+</view>

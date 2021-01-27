@@ -1,0 +1,13 @@
+{
+  "usingComponents": {
+    "title":"/components/log_register/title/title",
+    "user-name":"/components/log_register/user_name/user-name",
+    "verification":"/components/log_register/verification/verification",
+    "password":"/components/log_register/password/password",
+    "tips":"/components/log_register/tips/tips",
+    "btn":"/components/log_register/btn/btn",
+    "account-operation":"/components/log_register/account_operation/account-operation",
+    "tripartite":"/components/log_register/tripartite/tripartite"
+  },
+  "navigationBarTitleText": "注册"
+}

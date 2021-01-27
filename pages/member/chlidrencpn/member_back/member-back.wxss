@@ -1,0 +1,8 @@
+/* pages/member/chlidrencpn/mamber-back.wxss */
+.member-back{
+	width: 100%;
+	height: 300rpx;
+}
+.member-back .back-img{
+	width: 100%;
+}

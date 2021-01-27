@@ -1,0 +1,4 @@
+<!--components/log_register/tips/tips.wxml-->
+<text class="tips">
+  请设置6-16位密码，包含数字、字母、和特殊符号中至少2种组合
+</text>

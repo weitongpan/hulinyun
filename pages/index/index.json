@@ -1,7 +1,7 @@
 {
   "usingComponents": {
     "tool":"/components/tool/tool",
-    "nav":"/pages/index/chlidrencpn/nav/nav",
+    "nav":"/components/nav/nav",
     "notice":"/pages/index/chlidrencpn/notice/notice",
     "swiper-cpn":"/pages/index/chlidrencpn/swiper/swiper",
     "guide":"/pages/index/chlidrencpn/guide/guide",

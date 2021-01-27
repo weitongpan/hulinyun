@@ -1,0 +1,8 @@
+/* components/log_register/tips/tips.wxss */
+.tips{
+  display: block;
+  width: 664rpx;
+  margin: 0 auto;
+  color: #d7d7d7;
+  font-size: 24rpx;
+}

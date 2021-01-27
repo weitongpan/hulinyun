@@ -1,0 +1,29 @@
+<!--pages/room/chlidrencpn/room/room.wxml-->
+<view class="room-box">
+  <view class="room-number">
+    <text class="number-text">{{room.number}}</text>
+  </view>
+  <view class="line"></view>
+  <view class="list-item">
+    <text class="item-title">姓名</text>
+    <text class="item-text">{{room.userName}}</text>
+  </view>
+  <view class="list-item">
+    <text class="item-title">联系电话</text>
+    <text class="item-text">{{room.phone}}</text>
+  </view>
+  <view class="list-item">
+    <text class="item-title">身份证号码</text>
+    <text class="item-text">{{room.id}}</text>
+  </view>
+  <view class="list-item">
+    <text class="item-title">房间</text>
+    <text class="item-text">{{room.room}}</text>
+  </view>
+  <view class="line"></view>
+  <view class="state-box">
+    <text class="state-titile" space="emsp">状态: </text>
+    <text class="{{room.state == '已通过' ? 'adopt':''}} {{room.state == '审核中' ? 'examination':''}} {{room.state == '未通过审核' ? 'failed':''}}">{{room.state}}</text>
+    <text class="modify">修改资料</text>
+  </view>
+</view>

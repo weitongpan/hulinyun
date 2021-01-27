@@ -1,0 +1,18 @@
+<!--pages/register/register.wxml-->
+<title>
+  <text>账号注册</text>
+</title>
+<user-name/>
+<verification/>
+<password placeholderPassword="{{placeholderPassword}}"/>
+<tips/>
+<btn>
+  <text>提交</text>
+</btn>
+<account-operation>
+  <text slot="accountNo">已有账户？</text>
+  <navigator url="/pages/login/login" slot="redirect">
+    <text>立即登录</text>
+  </navigator>
+</account-operation>
+<tripartite/>

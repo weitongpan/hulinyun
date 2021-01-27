@@ -1,0 +1,6 @@
+<!--pages/room/room.wxml-->
+<block wx:for="{{room}}" wx:key="index">
+  <view class="room-box">
+    <room room="{{item}}"/>
+  </view>
+</block>

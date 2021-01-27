@@ -1,1 +1,25 @@
 /* pages/member/member.wxss */
+page{
+	background-color: #f5f5f5;
+}
+
+/* 用户信息开始 */
+.user-info-box{
+	position: absolute;
+	top: 190rpx;
+	left: 0;
+	right: 0;
+}
+/* 用户信息结束 */
+
+/* 导航开始 */
+.nav{
+	padding-top: 240rpx;
+}
+/* 导航结束 */
+
+/* 我的列表开始 */
+.my-list{
+	margin: 30rpx 0;
+}
+/* 我都列表结束 */

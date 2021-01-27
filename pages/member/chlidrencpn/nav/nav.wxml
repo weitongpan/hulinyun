@@ -1,0 +1,35 @@
+<!--pages/member/chlidrencpn/nav/nav.wxml-->
+<view class="nav">
+  <view class="nav-item">
+    <navigator>
+      <view class="nav-img-box zhangdan"> 
+        <image class="nav-img"src="/assets/img/member/zhangdan.png" mode="widthFix"></image>
+      </view>
+      <text class="nav-text">我的账单</text>
+    </navigator>
+  </view>
+  <view class="nav-item">
+    <navigator>
+      <view class="nav-img-box service"> 
+        <image class="nav-img"src="/assets/img/member/tongzhi.png" mode="widthFix"></image>
+      </view>
+      <text class="nav-text">我的服务</text>
+    </navigator>
+  </view>
+  <view class="nav-item">
+    <navigator>
+      <view class="nav-img-box order"> 
+          <image class="nav-img"src="/assets/img/member/dingdan.png" mode="widthFix"></image>
+      </view>
+      <text class="nav-text">我的订单</text>
+    </navigator>
+  </view>
+  <view class="nav-item">
+    <navigator>
+      <view class="nav-img-box fund"> 
+        <image class="nav-img"src="/assets/img/member/jijin.png" mode="widthFix"></image>
+      </view>
+      <text class="nav-text">我的基金</text>
+    </navigator>
+  </view>
+</view>

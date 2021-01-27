@@ -1,0 +1,8 @@
+/* pages/room/room.wxss */
+page{
+  background-color: #f6f6f6;
+}
+.room-box{
+  background-color: #ffffff;
+  margin-top: 20rpx;
+}

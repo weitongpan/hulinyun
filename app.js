@@ -3,6 +3,10 @@ App({
   onLaunch() {
   },
   globalData: {
-    latelyService:[]
+    latelyService:[],
+    userInfo:{
+      userName:123,
+      passWord:'w123'
+    }
   }
 })

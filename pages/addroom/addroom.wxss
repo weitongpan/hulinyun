@@ -1,0 +1,29 @@
+/* pages/addroom/addroom.wxss */
+page{
+  background-color: #f6f6f6;
+}
+/* 信息输入框开始 */
+.input-box .box{
+  background-color: #ffffff;
+  padding: 20rpx 0;
+}
+/* 信息输入框结束 */
+
+/* 上传照片开始 */
+.upload-box{
+  background-color: #ffffff;
+}
+/* 上传照片结束 */
+
+
+
+
+.submit{
+  margin-top: 300rpx;
+  height: 100rpx;
+  text-align: center;
+  font-size: 30rpx;
+  background-color: #00b282;
+  color: #ffffff;
+  line-height: 100rpx;
+}

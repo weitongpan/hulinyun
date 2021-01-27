@@ -1,0 +1,13 @@
+<!--components/log_register/tripartite/tripartite.wxml-->
+<view class="tripartite-box">
+  <view class="tripartite">
+    <text class="line"></text>
+    <text class="tripartite-text">第三方登录</text>
+    <text class="line"></text>
+  </view>
+  <view class="tripartite-img-box">
+    <image class="tripartite-img" mode="widthFix" src="/assets/img/login/tripartite_03.jpg"></image>
+    <image class="tripartite-img" mode="widthFix" src="/assets/img/login/tripartite_05.jpg"></image>
+    <image class="tripartite-img" mode="widthFix" src="/assets/img/login/tripartite_07.jpg"></image>
+  </view>
+</view>

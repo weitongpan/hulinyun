@@ -1,47 +1,19 @@
 <!--pages/login/login.wxml-->
-<view class="login-title">
-  <text class="login-title-text">账户登录</text>
-</view>
-<view class="form-box">
-  <view class="user-name">
-    <image class="name-phone" src="/assets/img/login/phone_03.jpg" mode="widthFix" />
-    <input class="name-input" placeholder="请输入手机号" type="number"/>
-    <image class="name-cancel" src="/assets/img/login/cancel_03.jpg" mode="widthFix" />
-  </view>
-  <view class="verification-box">
-    <image class="verification-img" src="/assets/img/login/verification_03.jpg" mode="widthFix" />
-    <input class="verification-input" placeholder="请输入验证码" type="number"/>
-    <text class="verification-text">获取验证码</text>
-  </view>
-  <view class="user-password">
-    <image class="password-lock" src="/assets/img/login/password_03.jpg" mode="widthFix" />
-    <input class="password-input" placeholder="请输入6-16位密码" password/>
-    <image class="password-plaintext" src="/assets/img/login/pass_03.jpg" mode="widthFix" />
-  </view>
-  <text class="tips">
-    请设置6-16位密码，包含数字、字母、和特殊符号中至少2种组合
-  </text>
-  <button class="log-btn" style="width:664rpx;height:90rpx">登录</button>
-  <view class="account-operation">
-    <text class="account-no">没有账户？</text>
-    <navigator class="register">
-      <text>立即注册</text>
-    </navigator>
-    <navigator class="forget">
-      <text>忘记密码</text>
-    </navigator>
-  </view>
-
-  <view class="tripartite-box">
-    <view class="tripartite">
-      <text class="line"></text>
-      <text class="tripartite-text">第三方登录</text>
-      <text class="line"></text>
-    </view>
-    <view class="tripartite-img-box">
-      <image class="tripartite-img" mode="widthFix" src="/assets/img/login/tripartite_03.jpg"></image>
-      <image class="tripartite-img" mode="widthFix" src="/assets/img/login/tripartite_05.jpg"></image>
-      <image class="tripartite-img" mode="widthFix" src="/assets/img/login/tripartite_07.jpg"></image>
-    </view>
-  </view>
-</view>
+<title>
+  <text>账户登录</text>
+</title>
+<user-name id="userNameInput"/>
+<password id="passWordInput"/>
+<btn bind:btnClick="btnClick">
+  <text>登录</text>
+</btn>
+<account-operation>
+  <text slot="accountNo">没有账户？</text>
+  <navigator url="/pages/register/register" slot="redirect">
+    <text>立即注册</text>
+  </navigator>
+  <navigator url="/pages/forget/forget" slot="forget">
+    <text>忘记密码</text>
+  </navigator>
+</account-operation>
+<tripartite/>

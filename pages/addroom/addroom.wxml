@@ -1,0 +1,16 @@
+<!--pages/addroom/addroom.wxml-->
+<!-- 输入信息框开始 -->
+<view class="input-box">
+  <info-input />
+</view>
+<!-- 输入信息框结束 -->
+
+<!-- 上传照片开始 -->
+<view class="upload-box">
+  <upload></upload>
+</view>
+<!-- 上传照片结束 -->
+<view class="submit">
+  <text>提交</text>
+</view>
+

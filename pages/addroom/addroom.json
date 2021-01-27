@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "info-input":"/pages/addroom/chlidrencpn/input/input",
+    "upload":"/pages/addroom/chlidrencpn/upload/upload"
+  },
+  "navigationBarTitleText": "添加房间"
+}

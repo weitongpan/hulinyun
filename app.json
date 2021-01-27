@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/login/login",
     "pages/index/index",
     "pages/service/service",
     "pages/business/business",
@@ -8,7 +9,10 @@
     "pages/facilitate/facilitate",
     "pages/call/call",
     "pages/unlocking/unlocking",
-    "pages/login/login"
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/room/room",
+    "pages/addroom/addroom"
   ],
   "window": {
     "navigationBarBackgroundColor": "#00b282",

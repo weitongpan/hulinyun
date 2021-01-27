@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "room":"/pages/room/chlidrencpn/room/room"
+  },
+  "navigationBarTitleText": "我的房间"
+}

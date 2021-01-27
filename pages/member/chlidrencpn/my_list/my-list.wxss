@@ -1,0 +1,29 @@
+/* pages/member/chlidrencpn/my_list/my-list.wxss */
+.my-list-box{
+  border-radius: 10rpx;
+	width: 700rpx;
+	margin: 0 auto;
+	background-color: #ffffff;
+}
+
+.my-list-box .list-item{
+	width: 640rpx;
+	margin: 0 auto;
+	height: 97rpx;
+	line-height: 97rpx;
+}
+.my-list-box .list-title{
+	font-size: 26rpx;
+	color: #323232;
+}
+.my-list-box .list-arrow{
+	font-size: 26rpx;
+	color: #b5b5b5;
+	float: right;
+}
+.line{
+  height: 2rpx;
+  width: 640rpx;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+}

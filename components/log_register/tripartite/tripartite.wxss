@@ -1,0 +1,31 @@
+/* components/log_register/tripartite/tripartite.wxss */
+.tripartite-box{
+  width: 664rpx;
+  margin: 0 auto;
+  margin-top: 180rpx;
+  padding-bottom: 152rpx;
+}
+.tripartite-box .tripartite .line{
+  display: inline-block;
+  width: 247rpx;
+  height: 1rpx;
+  background-color: #f1f1f1;
+  position: relative;
+  top: -8rpx;
+}
+.tripartite-box .tripartite .tripartite-text{
+  font-size: 26rpx;
+  color: #ababab;
+  display: inline-block;
+  padding-left: 20rpx;
+  padding-right: 20rpx;
+}
+.tripartite-img-box{
+  text-align: center;
+  margin-top: 56rpx;
+}
+.tripartite-img-box .tripartite-img{
+  width: 66rpx;
+  padding-left: 44rpx;
+  padding-right: 44rpx;
+}

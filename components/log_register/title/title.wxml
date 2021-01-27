@@ -1,0 +1,6 @@
+<!--components/log_register/title/title.wxml-->
+<view class="login-title">
+  <slot>
+    <text class="login-title-text">账户登录</text>
+  </slot>
+</view>

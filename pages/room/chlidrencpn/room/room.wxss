@@ -1,0 +1,71 @@
+/* pages/room/chlidrencpn/room/room.wxss */
+.room-box{
+  width: 700rpx;
+  margin: 0 auto;
+}
+.room-number{
+  height: 87rpx;
+  line-height: 87rpx;
+}
+.number-text{
+  font-size: 32rpx;
+  font-weight: 700;
+  color: #00b282;
+}
+.line{
+	height: 1rpx;
+	width: 700rpx;
+	margin: 0 auto;
+  background-color: #ececec;
+  margin-top: 10rpx;
+}
+.list-item{
+	height: 67rpx;
+	line-height: 67rpx;
+}
+.item-title{
+	font-size: 28rpx;
+	color: #828282;
+	display: inline-block;
+	width: 180rpx;
+}
+.item-text{
+	font-size: 28rpx;
+	color: #323232;
+}
+.state-box{
+  height: 95rpx;
+  line-height: 95rpx;
+}
+.state-titile{
+  font-size: 28rpx;
+  color: #828282;
+}
+.adopt{
+  font-size: 28rpx;
+  color: #00b282;
+}
+.examination{
+  font-size: 28rpx;
+  color: #f6ab16;
+}
+.failed{
+  font-size: 28rpx;
+  color: #f64849;
+}
+.modify{
+  font-size: 26rpx;
+  color: #ffffff;
+  float: right;
+  background-color: #00b282;
+  height: 56rpx;
+  width: 172rpx;
+  line-height: 56rpx;
+  text-align: center;
+  border-radius: 5rpx;
+  position: relative;
+  top: 20rpx;
+}
+.box{
+  background-color: #ffffff;
+}

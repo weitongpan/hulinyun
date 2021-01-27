@@ -1,0 +1,8 @@
+<!--components/log_register/user_name/user-name.wxml-->
+<view class="user-name">
+  <image class="name-phone" src="/assets/img/login/phone_03.jpg" mode="widthFix" />
+  <input class="name-input" placeholder="请输入手机号" type="number" maxlength="11" value="{{userName}}" bindblur="keyboardEntry"/>
+  <view class="name-cancel-box" hover-class="active" hover-start-time="0" bind:tap="cancelClick">
+    <image class="name-cancel"src="/assets/img/login/cancel_03.jpg" mode="widthFix" />
+  </view>
+</view>

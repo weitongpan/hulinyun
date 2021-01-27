@@ -1,2 +1,24 @@
 <!--pages/member/member.wxml-->
-<text>pages/member/member.wxml</text>
+<!-- 背景图片开始 -->
+<member-back/>
+<!-- 背景图片结束 -->
+
+<!-- 用户信息开始 -->
+<view class="user-info-box">
+	<user-info></user-info>
+</view>
+<!-- 用户信息结束 -->
+
+<!-- 导航开始 -->
+<view class="nav">
+  <nav />
+</view>
+<!-- 导航结束 -->
+
+
+<!-- 我的列表开始 -->
+<view class="my-list">
+  <my-list/>
+</view>
+<!-- 我的列表结束 -->
+

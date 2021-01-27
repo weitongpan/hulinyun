@@ -1,3 +1,11 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "title":"/components/log_register/title/title",
+    "user-name":"/components/log_register/user_name/user-name",
+    "password":"/components/log_register/password/password",
+    "btn":"/components/log_register/btn/btn",
+    "account-operation":"/components/log_register/account_operation/account-operation",
+    "tripartite":"/components/log_register/tripartite/tripartite"
+  },
+  "navigationBarTitleText": "登录"
 }

@@ -1,0 +1,27 @@
+/* components/log_register/verification/verification.wxss */
+.verification-box{
+  width: 664rpx;
+  margin: 0 auto;
+  border-bottom: 1rpx solid #f2f2f2;
+  padding-bottom: 25rpx;
+  padding-top: 56rpx;
+}
+.verification-box .verification-img{
+  width: 30rpx;
+  position: relative;
+  top: -4rpx;
+}
+.verification-box .verification-input{
+  display: inline-block;
+  margin-left: 30rpx;
+}
+.verification-box .verification-text{
+  float: right;
+  font-size: 28rpx;
+  color: #00b282;
+}
+.count-down{
+  float: right;
+  font-size: 28rpx;
+  color: #d9d9d9;
+}
